@@ -30,7 +30,7 @@ class MainApp extends StatelessWidget {
 Future<List<NowPlayingMovie>> getNowPlayingMovies() async {
   final String nowPlaying =
       'https://api.themoviedb.org/3/movie/now_playing?api_key=' +
-          TMDBConfig.apiKey +
+          '33dbebe84658adcbc530a325abd40429' +
           '&page=' +
           '1';
 
@@ -62,7 +62,7 @@ Future<List<NowPlayingMovie>> getNowPlayingMovies() async {
 Future<List<UpcomingMovie>> getUpcomingMovies() async {
   final String nowPlaying =
       'https://api.themoviedb.org/3/movie/upcoming?api_key=' +
-          TMDBConfig.apiKey +
+         '33dbebe84658adcbc530a325abd40429' + 
           '&page=' +
           '1';
 
@@ -94,7 +94,7 @@ Future<List<UpcomingMovie>> getUpcomingMovies() async {
 Future<List<PopularMovie>> getPopularMovies() async {
   final String nowPlaying =
       'https://api.themoviedb.org/3/movie/popular?api_key=' +
-          TMDBConfig.apiKey +
+		  '33dbebe84658adcbc530a325abd40429' +
           '&page=' +
           '1';
 
