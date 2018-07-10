@@ -67,7 +67,7 @@ class MovieDetailsPage extends StatelessWidget {
     final String nowPlaying = 'https://api.themoviedb.org/3/movie/' +
         id.toString() +
         '?api_key=' +
-        TMDBConfig.apiKey +
+        '33dbebe84658adcbc530a325abd40429' +
         '&page=' +
         '1';
 
